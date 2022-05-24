@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="super-trunfo.css">
+    <title>Super Trunfo</title>
+</head>
+<body>
+    <header>
+        <div id="_header">
+            <img src="./Imagens/Icones-menu/Ajuda" id="ajuda" class="icones" onclick="ajuda()">
+            <p id="Super-trunfo"><span>S</span>uper <span>T</span>runfo</p>
+            <img src="./Imagens/Icones-menu/Engrenagem.png" id="opcoes" class="icones" onclick="opcoes()">
+        </div>
+    </header>
+
+
+    <div class="GameBoard">
+        <div class="_Ajuda">            
+            <p class="pAjuda"> COMO JOGAR </p>
+            <p class="listaAjuda">O jogo contém cartas de ídolos de diversos times do futebol brasileiro.<p>
+            <hr class="HRopcoes">
+            <p class="listaAjuda">Serão sorteadas aleatoriamente 10 cartas para você e 10 para o computador.</p>
+            <hr class="HRopcoes">
+            <p class="listaAjuda">Cada carta possui 5 atributos e seus valores. Alternadamente, você ou a máquina escolherão com qual atributo vão desafiar o oponente.<p>
+            <hr class="HRopcoes">
+            <p class="listaAjuda">Quem tiver o maior valor no atributo escolhido ganha 1 ponto.</p>
+            <hr class="HRopcoes">
+            <p class="listaAjuda">Quem terminar com mais pontos após 10 rodadas vence.</p>
+            <hr class="HRopcoes">
+            <p class="listaAjuda">Na tela de checagem, a sua carta sempre é a com o cabeçalho verde, e a da máquina a com o cabeçalho azul.</p>    
+            <button id="FecharAjuda" onclick="ajuda()">Fechar</button>
+        </div>
+
+        <div class="_Opcoes">
+            <p class="pOpcoes">Sons do jogo</p>
+            <div class="contato">            
+            <button class="sonsoff" id="temaJogo">Música</button>
+            <button class="sonsoff" id="efeitoJogo">Efeitos</button>
+            </div>
+            <hr class="HRopcoes">
+            <p class="pOpcoes">Contate o desenvolvedor!</p>
+            <div class="contato">
+            <a href="https://www.linkedin.com/in/edsontorres/" target="_blank" class="linkContato">Linkedin</a>
+            <a href="https://github.com/Edsonctm" target="_blank" class="linkContato">Github</a>
+            <a href="https://www.instagram.com/edsonctm/" target="_blank" class="linkContato">Instagram</a>
+            <a href="https://web.whatsapp.com/send?phone=5527981679958&text&app_absent=0" target="_blank" class="linkContato">Whatsapp</a>
+            </div>
+            <button id="FecharAjuda" onclick="opcoes()">Fechar</button>
+        </div>
+
+        <div class="Jogo"></div>
+    </div>
+
+    <script src="Super-trunfo.js"></script>
+</body>
+</html>
